@@ -1,0 +1,28 @@
+.NavbarMain {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 200px;
+    padding-block: 10px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 0.2px dashed #fff;
+}
+.NavbarMain img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+  }
+
+.NavbarMain .Navbar {
+    margin-top: 30px;
+}
+
+.NavbarMain .Navbar .NavLink {
+    display: inline;
+}
+
+.NavbarMain .Navbar .NavLink a {
+    margin-inline: 10px;
+    color: #fff;
+    font-weight: 800;
+}
